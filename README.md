@@ -33,6 +33,8 @@ The last step is to create strings with the IDs of step #2. This can be done eit
 In the Healthcare Bot management portal navigate to the Localization management page (Language > Localization) and import the [core_protocol_strings](./core_protocol_strings.xlsx) excel file localized for British English (en-gb). 
 To enable other languages, edit the excel file, and add a column for each required language and re-import it. Learn more about the [built-in localization manager](https://docs.microsoft.com/en-us/HealthBot/localization).
 
+**Note:** the excel file includes 4 other languages: Amharic, Arabic, Hebrew and Russian. Please review the provided strings with language experts before using them.
+
 ## Outcome
 You can now go back to the scenario and run it using the `en-gb` locale.
 If you have completed the configuration and customization correctly you should see the following localized question:
